@@ -1,0 +1,189 @@
+body{
+    background-color: rgba(106, 218, 255, 0.868);
+    height: 400vw;
+}
+.hbd{
+    top: 250px;  
+    left: 340px;
+    position: fixed;
+    font-size: 50px;
+    opacity: 1;
+    animation: scrollfade linear;
+    animation-timeline: scroll()
+}
+@keyframes scrollfade {
+    50%{opacity: 0}
+    100%{opacity: 0}
+}
+.box {
+    width: 300px;        /* Set the width of the box */
+    height: 200px;       /* Set the height of the box */
+    overflow: hidden;
+    background-color: lightblue;
+    border: 2px solid black;    /* Add a border around the box */
+    padding: 20px;       /* Add space inside the box */
+    margin: 50px;        /* Add space around the box */
+    text-align: center;  /* Center the text inside the box */
+}
+#a{
+    background-image:url("images/20241109_121830.jpg"); 
+    background-position: center -200px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    top: 2700px;  
+    left: 20px;
+    position: relative;
+    animation: move 10s infinite alternate;
+}
+@keyframes move {
+    0% {
+        background-position: center -250px;
+    }
+    50% {
+        
+        background-position: center -200px;
+    }
+    100%{
+        background-position: 0px -250px;
+    }
+}
+
+.atxt{
+    top: 2750px;  
+    width: 750px;
+    height: 200px;  
+    left: 500px;
+    font-size: larger;
+    position: absolute;
+}
+#b{ 
+    background-repeat: no-repeat;
+    top: 2750px;  
+    left: 830px;
+    position: relative; 
+    animation: shift 5s infinite;
+}
+@keyframes shift {
+    from{
+        background-image: url(images/20241109_172503.jpg);
+        background-position: center -110px;
+        background-size: 90%;
+    }
+    to{
+        background-image: url(images/20241109_154900.jpg);
+        background-position: -110px -210px;
+        background-size: 140%;
+    }
+}
+
+.btxt{
+    width: 750px;
+    height: 200px;  
+    top: 3100px;  
+    left: 100px;
+    font-size: larger;
+    position: absolute;
+}
+/*#c{
+    top: 2800px;  
+    left: 20px;
+    position: relative;
+}
+.ctxt{
+    top: 3450px;  
+    left: 500px;
+    font-size: larger;
+    position: absolute;
+}
+#d{
+    top: 2850px;  
+    left: 830px;
+    position: relative; 
+}
+.dtxt{
+    width: 750px;
+    height: 200px;  
+    top: 3800px;  
+    left: 100px;
+    font-size: larger;
+    position: absolute;
+}
+#e{
+    top: 2900px;  
+    left: 20px;
+    position: relative;
+}
+.etxt{
+    top: 4150px;  
+    left: 500px;
+    font-size: larger;
+    position: absolute;
+}
+#f{
+    top: 2950px;  
+    left: 830px;
+    position: relative; 
+}
+.ftxt{
+    width: 750px;
+    height: 200px;  
+    top: 4500px;  
+    left: 100px;
+    font-size: larger;
+    position: absolute;
+}*/
+h1{
+    position: absolute;
+    top: 3700px;
+    left: 120px;
+}
+.con{
+    position: absolute;
+    top: 3790px;
+    font-size: larger;
+}
+.ilu{
+    font-size: 50px;
+}
+.place{
+    top: 2800px;
+    position: relative;
+}
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    background: #3ce0fdbe;
+    border: 2px solid #3ce0fdbe;
+}
+
+.scroll-content {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.scroll-content img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+#inputBoxContainer {
+    display: none; /* Hidden initially */
+}
+#inputBox {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+#submitMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
