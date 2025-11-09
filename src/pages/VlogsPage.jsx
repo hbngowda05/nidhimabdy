@@ -16,22 +16,22 @@ const VlogsPage = () => {
   }, [])
 
   const vlogs = [
-    { title: 'Vlog 1', date: 'Feb 6, 2025', src: 'vlogs/vlog1_feb_6_2025.mp4' },
-    { title: 'Vlog 2', date: 'Feb 8, 2025', src: 'vlogs/vlog2_feb_8_2025.mp4' },
-    { title: 'Vlog 3', date: 'Feb 18, 2025', src: 'vlogs/vlog3_feb_18_2025.mp4' },
-    { title: 'Vlog 4', date: 'Feb 25, 2025', src: 'vlogs/vlog4_feb_25_2025.mp4' },
-    { title: 'Vlog 5', date: 'March 9, 2025', src: 'vlogs/vlog5_march_9_2025.mp4' },
-    { title: 'Vlog 5 Part 2', date: 'March 9, 2025', src: 'vlogs/vlog5_march_9_2025(part_2).mp4' },
-    { title: 'Vlog 6', date: 'March 20, 2025', src: 'vlogs/vlog6_march_20_2025.mp4' },
-    { title: 'Vlog 7', date: 'March 27, 2025', src: 'vlogs/vlog7_march_27_2025.mp4' },
-    { title: 'Vlog 8', date: 'March 29, 2025', src: 'vlogs/vlog8_march_29_2025.mp4' },
-    { title: 'Vlog 9', date: 'April 27, 2025', src: 'vlogs/vlog9_april_27_2025.mp4' },
-    { title: 'Vlog 10 Part 1', date: 'June 21, 2025', src: 'vlogs/vlog10_june_21_2025(part1).mp4' },
-    { title: 'Vlog 10 Part 2', date: 'June 21, 2025', src: 'vlogs/vlog10_june_21_2025(part2).mp4' },
-    { title: 'Vlog 11', date: 'June 23, 2025', src: 'vlogs/vlog11_june_23_2025.mp4' },
-    { title: 'Vlog 12', date: 'July 10, 2025', src: 'vlogs/vlog12_july_10_2025.mp4' },
-    { title: 'Vlog 13', date: 'August 28, 2025', src: 'vlogs/vlog13_august_28_2025.mp4' },
-    { title: 'Vlog 14', date: 'November 1, 2025', src: 'vlogs/vlog14_november_1_2025.mp4' },
+    { title: 'Vlog 1', date: 'Feb 6, 2025', src: '/vlogs/vlog1_feb_6_2025.mp4' },
+    { title: 'Vlog 2', date: 'Feb 8, 2025', src: '/vlogs/vlog2_feb_8_2025.mp4' },
+    { title: 'Vlog 3', date: 'Feb 18, 2025', src: '/vlogs/vlog3_feb_18_2025.mp4' },
+    { title: 'Vlog 4', date: 'Feb 25, 2025', src: '/vlogs/vlog4_feb_25_2025.mp4' },
+    { title: 'Vlog 5', date: 'March 9, 2025', src: '/vlogs/vlog5_march_9_2025.mp4' },
+    { title: 'Vlog 5 Part 2', date: 'March 9, 2025', src: '/vlogs/vlog5_march_9_2025(part_2).mp4' },
+    { title: 'Vlog 6', date: 'March 20, 2025', src: '/vlogs/vlog6_march_20_2025.mp4' },
+    { title: 'Vlog 7', date: 'March 27, 2025', src: '/vlogs/vlog7_march_27_2025.mp4' },
+    { title: 'Vlog 8', date: 'March 29, 2025', src: '/vlogs/vlog8_march_29_2025.mp4' },
+    { title: 'Vlog 9', date: 'April 27, 2025', src: '/vlogs/vlog9_april_27_2025.mp4' },
+    { title: 'Vlog 10 Part 1', date: 'June 21, 2025', src: '/vlogs/vlog10_june_21_2025(part1).mp4' },
+    { title: 'Vlog 10 Part 2', date: 'June 21, 2025', src: '/vlogs/vlog10_june_21_2025(part2).mp4' },
+    { title: 'Vlog 11', date: 'June 23, 2025', src: '/vlogs/vlog11_june_23_2025.mp4' },
+    { title: 'Vlog 12', date: 'July 10, 2025', src: '/vlogs/vlog12_july_10_2025.mp4' },
+    { title: 'Vlog 13', date: 'August 28, 2025', src: '/vlogs/vlog13_august_28_2025.mp4' },
+    { title: 'Vlog 14', date: 'November 1, 2025', src: '/vlogs/vlog14_november_1_2025.mp4' },
   ]
 
   return (

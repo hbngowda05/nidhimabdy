@@ -44,10 +44,10 @@ const BirthdayPage = () => {
   }
 
   const images = [
-    'images/IMG-20250213-WA0151.jpg',
-    'images/IMG-20250213-WA0176.jpg',
-    'images/IMG-20250213-WA0177.jpg',
-    'images/IMG-20250213-WA0192.jpg',
+    '/images/IMG-20250213-WA0151.jpg',
+    '/images/IMG-20250213-WA0176.jpg',
+    '/images/IMG-20250213-WA0177.jpg',
+    '/images/IMG-20250213-WA0192.jpg',
   ]
 
   return (
@@ -82,7 +82,7 @@ const BirthdayPage = () => {
       <div className="wish-section max-w-4xl mx-auto mb-8 md:mb-12 px-4">
         <motion.div 
           className="w-full max-w-xs h-44 sm:h-52 mx-auto mb-4 md:mb-6 rounded-xl overflow-hidden shadow-2xl border-2 border-black"
-          style={{ backgroundImage: 'url(images/ns2.jpg)', backgroundSize: '120%', backgroundPosition: '-60px 2px', backgroundRepeat: 'no-repeat' }}
+          style={{ backgroundImage: 'url(/images/ns2.jpg)', backgroundSize: '120%', backgroundPosition: '-60px 2px', backgroundRepeat: 'no-repeat' }}
           animate={{ backgroundPosition: ['-60px 10px', '-20px -10px', '-50px -20px'] }}
           transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
         />
@@ -98,7 +98,7 @@ const BirthdayPage = () => {
       <div className="wish-section max-w-4xl mx-auto mb-8 md:mb-12 px-4">
         <motion.div 
           className="w-full max-w-xs h-44 sm:h-52 mx-auto mb-4 md:mb-6 rounded-xl overflow-hidden shadow-2xl border-2 border-black"
-          style={{ backgroundImage: 'url(images/cn.jpg)', backgroundSize: '120%', backgroundPosition: 'center -10px', backgroundRepeat: 'no-repeat' }}
+          style={{ backgroundImage: 'url(/images/cn.jpg)', backgroundSize: '120%', backgroundPosition: 'center -10px', backgroundRepeat: 'no-repeat' }}
           animate={{ backgroundPosition: ['center -10px', 'center -50px', '0 -50px'] }}
           transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
         />
@@ -113,7 +113,7 @@ const BirthdayPage = () => {
       <div className="wish-section max-w-4xl mx-auto mb-8 md:mb-12 px-4">
         <motion.div 
           className="w-full max-w-xs h-44 sm:h-52 mx-auto mb-4 md:mb-6 rounded-xl overflow-hidden shadow-2xl border-2 border-black"
-          style={{ backgroundImage: 'url(images/pn.jpg)', backgroundSize: '120%', backgroundPosition: 'center -50px', backgroundRepeat: 'no-repeat' }}
+          style={{ backgroundImage: 'url(/images/pn.jpg)', backgroundSize: '120%', backgroundPosition: 'center -50px', backgroundRepeat: 'no-repeat' }}
           animate={{ backgroundPosition: ['center -50px', 'center -150px', '0 -150px'] }}
           transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
         />
@@ -128,7 +128,7 @@ const BirthdayPage = () => {
       <div className="wish-section max-w-4xl mx-auto mb-8 md:mb-12 px-4">
         <motion.div 
           className="w-full max-w-xs h-44 sm:h-52 mx-auto mb-4 md:mb-6 rounded-xl overflow-hidden shadow-2xl border-2 border-black"
-          style={{ backgroundImage: 'url(images/hn.jpg)', backgroundSize: '100%', backgroundPosition: '20px -30px', backgroundRepeat: 'no-repeat' }}
+          style={{ backgroundImage: 'url(/images/hn.jpg)', backgroundSize: '100%', backgroundPosition: '20px -30px', backgroundRepeat: 'no-repeat' }}
           animate={{ backgroundPosition: ['20px -30px', '-20px -10px', '20px -20px'] }}
           transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
         />
@@ -142,13 +142,13 @@ const BirthdayPage = () => {
       {/* Additional Friend Images */}
       <div className="wish-section max-w-md mx-auto mb-8 px-4">
         <div className="w-full h-[500px] sm:h-[700px] md:h-[900px] mx-auto rounded-xl overflow-hidden shadow-2xl mb-6 md:mb-8">
-          <img src="images/nf1.jpg" alt="Friend" className="w-full h-full object-contain" />
+          <img src="/images/nf1.jpg" alt="Friend" className="w-full h-full object-contain" />
         </div>
         <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] mx-auto rounded-xl overflow-hidden shadow-2xl mb-6 md:mb-8">
-          <img src="images/nf2.jpg" alt="Friend" className="w-full h-full object-contain" />
+          <img src="/images/nf2.jpg" alt="Friend" className="w-full h-full object-contain" />
         </div>
         <div className="w-full h-[450px] sm:h-[550px] md:h-[700px] mx-auto rounded-xl overflow-hidden shadow-2xl">
-          <img src="images/np3.jpg" alt="Friend" className="w-full h-full object-contain" />
+          <img src="/images/np3.jpg" alt="Friend" className="w-full h-full object-contain" />
         </div>
       </div>
 
@@ -160,7 +160,7 @@ const BirthdayPage = () => {
         className="wish-section max-w-xl mx-auto mt-12 md:mt-16 mb-12 md:mb-16 px-4 relative min-h-[350px] md:min-h-[400px] flex items-center justify-center"
       >
         <div className="absolute inset-0 opacity-30 pointer-events-none flex items-center justify-center">
-          <img src="images/WhatsApp_Image_2025-02-14_at_19.32.45_f7b1e73a-removebg-preview.png" alt="" className="max-w-full max-h-full object-contain" />
+          <img src="/images/WhatsApp_Image_2025-02-14_at_19.32.45_f7b1e73a-removebg-preview.png" alt="" className="max-w-full max-h-full object-contain" />
         </div>
         <div className="relative bg-white/10 backdrop-blur-lg rounded-3xl p-8 md:p-10 shadow-2xl border border-white/20 w-full">
           <h3 className="text-white text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-center">Password??</h3>
@@ -186,10 +186,10 @@ const BirthdayPage = () => {
 
       {/* Background decorative images */}
       <div className="fixed bottom-10 left-10 w-56 h-80 opacity-40 pointer-events-none hidden md:block">
-        <img src="images/n-removebg-preview.png" alt="" className="w-full h-full object-cover" />
+        <img src="/images/n-removebg-preview.png" alt="" className="w-full h-full object-cover" />
       </div>
       <div className="fixed top-20 right-10 w-48 h-72 opacity-40 pointer-events-none hidden md:block">
-        <img src="images/nc2-removebg-preview.png" alt="" className="w-full h-full object-cover" />
+        <img src="/images/nc2-removebg-preview.png" alt="" className="w-full h-full object-cover" />
       </div>
     </div>
   )

@@ -28,24 +28,24 @@ const PersonalWishPage = () => {
   }, [])
 
   const images1 = [
-    'images/20241109_154622.jpg',
-    'images/20241109_151304.jpg',
-    'images/IMG-20241109-WA0191.jpg',
-    'images/20241109_151330.jpg',
+    '/images/20241109_154622.jpg',
+    '/images/20241109_151304.jpg',
+    '/images/IMG-20241109-WA0191.jpg',
+    '/images/20241109_151330.jpg',
   ]
 
   const images2 = [
-    'images/IMG-20241103-WA0027.jpg',
-    'images/IMG-20241104-WA0020.jpg',
-    'images/IMG-20250112-WA0053new.jpg',
-    'images/IMG-20240828-WA0006.jpg',
+    '/images/IMG-20241103-WA0027.jpg',
+    '/images/IMG-20241104-WA0020.jpg',
+    '/images/IMG-20250112-WA0053new.jpg',
+    '/images/IMG-20240828-WA0006.jpg',
   ]
 
   const images3 = [
-    'images/nccn.jpg',
-    'images/IMG-20250112-WA0052.jpg',
-    'images/IMG-20240828-WA0007.jpg',
-    'images/wnd.jpg',
+    '/images/nccn.jpg',
+    '/images/IMG-20250112-WA0052.jpg',
+    '/images/IMG-20240828-WA0007.jpg',
+    '/images/wnd.jpg',
   ]
 
   return (
