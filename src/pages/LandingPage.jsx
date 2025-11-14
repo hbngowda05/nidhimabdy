@@ -60,7 +60,7 @@ const LandingPage = () => {
         className="bg-white/10 backdrop-blur-lg rounded-3xl p-12 md:p-20 shadow-2xl max-w-5xl w-full border border-white/20"
       >
         <div ref={titleRef} className="text-center">
-          <img src="/images/sName="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold text-white mb-8">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold text-white mb-8">
             Happy 🎉 Birthday
           </h1>
           <motion.h2
